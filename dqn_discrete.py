@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from keras.activations import relu, linear
 
 import numpy as np
-env = gym.make('LunarLander-v2')
+env = gym.make('MountainCar-v0')
 env.seed(0)
 np.random.seed(0)
 
